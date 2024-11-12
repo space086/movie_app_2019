@@ -50,7 +50,7 @@ const foodILike = [
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      <h1>Hello!</h1>
       {foodILike.map((dish) => (
         <Food
           key={dish.id}
